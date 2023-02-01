@@ -1,0 +1,14 @@
+name: phi543
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - seaborn
+  - tensorflow
+  - tensorflow-datasets
+  - scikit-learn
+  - pandas
+  - scipy
+  - pip:
+    - keras-cv
+    - keras-nlp
