@@ -9,6 +9,7 @@ dependencies:
   - scikit-learn
   - pandas
   - scipy
+  - pip
   - pip:
     - keras-cv
     - keras-nlp
