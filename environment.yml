@@ -2,14 +2,15 @@ name: phi543
 channels:
   - conda-forge
 dependencies:
-  - python
-  - seaborn
-  - tensorflow
-  - tensorflow-datasets
-  - scikit-learn
-  - pandas
-  - scipy
+  - python=3.10
   - pip
   - pip:
+    - seaborn
+    - scikit-learn
+    - pandas
+    - scipy
+    - tensorflow-cpu
+    - tensorflow-datasets
+    - pycocotools
     - keras-cv
     - keras-nlp
